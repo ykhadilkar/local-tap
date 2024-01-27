@@ -140,6 +140,11 @@ should pick up where they left off.
    catalog entry. After registration, you can navigate to the app in the software catalog, and everything 
    should work just fine, such as app live view, etc.
 
+## Validate the Installation of TAP with Testing Pipeline
+1. The `dev` folder contains a namespace labeled for TAP namespace provisioner. Run
+   `kubectl apply -f dev/namespace.yaml` to create the namespace.
+2. 
+
 ## Debug the Installation
 
 There is a set of scripts starting in the 20 range that you can use to debug the state of the 

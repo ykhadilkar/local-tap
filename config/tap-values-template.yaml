@@ -24,7 +24,7 @@ contour:
     service:
       type: NodePort
 
-supply_chain: basic
+supply_chain: #@ data.values.SUPPLY_CHAIN
 
 #@ baseUrl = "https://tap-gui." + data.values.INGRESS_DOMAIN
 tap_gui:
